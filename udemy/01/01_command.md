@@ -2,6 +2,10 @@
 
 - Mongo DB CLI 에서 자바스크립트 명령어를 활용해서
 
+- `cls` : 콘솔창 새로고침
+
+- `db.<collection>.<method>` : 선택한 데이터베이스에서 컬렉션(SQL의 테이블에 해당)을 선택 후, 메소드를 지정한다. 해당 쿼리를 입력 후, 조회하게 되는 값을 몽고디비에서는 `Document`라고 부른다.
+
 - `db.products.find().pretty()`: 데이터베이스에 저장되어있는 모든 데이터를 가독성 높게 가공해 조회한다.
 
 - `db.products.insertOne({title:"T-shirt", seller:{name:"max", age:29}})` : 데이터 삽입하기
